@@ -1,0 +1,83 @@
+
+body {
+    background-color: #4f7b4a;
+    padding: 0;
+}
+#right-section {
+    width: 65%;
+    float: right;
+    margin: 25px;
+    padding: 10px;
+    margin-right: 0%;
+    border: 1px solid #999; 
+    border-style: double;
+    color: #F2F4FF;
+}
+#left-section {
+    width: 35%;
+    margin-top: 25px;
+    border: 1px solid #999;
+    padding: 10px;
+    margin-left: 0%;
+    border-style: double;
+    font-size: 1.35rem;
+}
+#right-section, #left-section {
+    box-sizing: border-box;
+}
+h1 {
+    color: #000000;
+    margin: 0.5em 2em 0em;
+    /*margin-top: 0.5em;
+    margin-right: 1 em;
+    margin-bottom: 3 em;
+    margin-left: 2 em; çünkü default*/
+    padding: 2px;
+    font-size: 3em;
+    border-bottom: 3px solid #000000;
+    border-bottom-width: 1px solid #651087;
+    border-radius: 0em;
+}
+.şekilli {
+    width: 250px;
+    height: 250px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 2em;
+    background-color: rgb(30, 30, 96);
+    border-radius: 3rem;
+    outline: 4px solid purple;
+    border: 5px solid rgb(96, 42, 24);
+    outline-offset: 1rem;
+    border: double;
+}
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+#form {
+    font: inherit;
+    text-align: right;
+    font-style: oblique;
+}
+a {
+    text-decoration: solid;
+    color: fuchsia;
+}
+
+a:visited {
+    color: #c3be5e;
+}
+a:hover {
+    color: darkred;
+    opacity: 0.65;
+}
+
+a:active, a:focus {color: aqua;
+}
+/* hover üzerine gelince çalışıyo
+active tutup çekince çalışıyo
+visited visited
+visitedi hoverdan önce yazmazsan hover çalışmaz
+focus table çalışıyo*/
